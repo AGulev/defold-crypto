@@ -1,4 +1,5 @@
 #include <dmsdk/sdk.h>
+#include<malloc.h>
 
 //#include <lua.h>
 //#include <lauxlib.h>
