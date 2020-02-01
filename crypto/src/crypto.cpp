@@ -1,5 +1,7 @@
 #include <dmsdk/sdk.h>
-#include<malloc.h>
+#if defined(DM_PLATFORM_IOS) || defined(DM_PLATFORM_ANDROID)
+#include <malloc.h>
+#endif
 
 //#include <lua.h>
 //#include <lauxlib.h>
