@@ -1,5 +1,5 @@
 #include <dmsdk/sdk.h>
-#if defined(DM_PLATFORM_IOS) || defined(DM_PLATFORM_ANDROID)
+#if defined(DM_PLATFORM_ANDROID)
 #include <malloc.h>
 #endif
 
